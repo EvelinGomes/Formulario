@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #002145;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#conteiner {
+	width: 900px;
+	height: auto;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+/* Topo
+_________________________________________________ */
+
+.logo {
+	background: #ea4524;
+	text-align: center;
+}
+
+.logo img {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.topo a {
+	text-decoration: none;
+	color: #ea4524;
+	text-align: center;
+}
+
+.topo h1 {
+	margin: 30px 30px 5px 30px;
+	text-align: center;
+}
+
+.topo p {
+	font-size: 18px;
+	color: grey;
+	border-bottom: 1px solid grey;
+	width: 700px;
+	margin-left: 100px;
+	text-align: center;
+}
+
+/* Inputs
+_________________________________________________ */
+
+input {
+	color: #525252;
+}
+
+h4 {
+	margin-bottom: 10px; 
+	color: black;
+}
+
+.matricula {
+	margin: 40px;
+	font-size: 18px;
+	color: #525252;
+}
+
+.matricula input {
+	margin-bottom: 10px;
+}
+
+.nome {
+	margin: 40px 40px 0px 40px;
+	font-size: 18px;
+	color: #525252;
+}
+
+.nome input {
+	padding: 5px;
+}
+
+div .lado {
+	display: inline-block;
+}
+
+/* Inputs parte 2
+_________________________________________________ */
+
+.borda {
+	width: 700px;
+	border-bottom: 1px solid grey;
+	margin-left: 100px;
+	margin-top: 40px;
+}
+
+.endereco {
+	margin: 40px 40px 0px 40px;
+	font-size: 18px;
+	color: #525252;
+}
+
+.endereco input {
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+textarea {
+	width: 750px;
+	height: 90px;
+	margin-bottom: 20px;
+}
+
+.botao {
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	margin-bottom: 30px;
+	margin-left: 300px;
+	cursor: pointer;
+	background: #ea4524;
+	border: none;
+	color: white;
+}
+
+.botao:hover {
+	background: #ff3911;
+}
